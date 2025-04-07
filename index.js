@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const app = express();
-const allowedOrigins = ['https://josmarwen72.github.io/'];
+const allowedOrigins = ['https://josmarwen72.github.io'];
 
 app.use(cors({
   origin: function (origin, callback) {
